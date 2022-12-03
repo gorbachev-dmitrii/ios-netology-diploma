@@ -9,21 +9,29 @@
 /* Begin PBXBuildFile section */
 		0D44388D293B93E600D5DCE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D44388C293B93E600D5DCE6 /* AppDelegate.swift */; };
 		0D44388F293B93E600D5DCE6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D44388E293B93E600D5DCE6 /* SceneDelegate.swift */; };
-		0D443891293B93E600D5DCE6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D443890293B93E600D5DCE6 /* ViewController.swift */; };
-		0D443894293B93E600D5DCE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D443892293B93E600D5DCE6 /* Main.storyboard */; };
 		0D443896293B93E700D5DCE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D443895293B93E700D5DCE6 /* Assets.xcassets */; };
 		0D443899293B93E700D5DCE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D443897293B93E700D5DCE6 /* LaunchScreen.storyboard */; };
+		0D4438A3293B94DD00D5DCE6 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4438A2293B94DD00D5DCE6 /* MainCoordinator.swift */; };
+		0D4438A7293B97D800D5DCE6 /* LoginCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4438A6293B97D800D5DCE6 /* LoginCoordinator.swift */; };
+		0D4438A9293B980200D5DCE6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4438A8293B980200D5DCE6 /* LoginViewController.swift */; };
+		0D4438AC293B984600D5DCE6 /* Strings + Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4438AB293B984600D5DCE6 /* Strings + Localization.swift */; };
+		0D4438AF293B9DC800D5DCE6 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0D4438B1293B9DC800D5DCE6 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0D443889293B93E600D5DCE6 /* vk-client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "vk-client.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D44388C293B93E600D5DCE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0D44388E293B93E600D5DCE6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0D443890293B93E600D5DCE6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0D443893293B93E600D5DCE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0D443895293B93E700D5DCE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0D443898293B93E700D5DCE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0D44389A293B93E700D5DCE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D4438A2293B94DD00D5DCE6 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		0D4438A5293B976600D5DCE6 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		0D4438A6293B97D800D5DCE6 /* LoginCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCoordinator.swift; sourceTree = "<group>"; };
+		0D4438A8293B980200D5DCE6 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		0D4438AB293B984600D5DCE6 /* Strings + Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Strings + Localization.swift"; sourceTree = "<group>"; };
+		0D4438B0293B9DC800D5DCE6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		0D4438B2293B9DCB00D5DCE6 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +64,34 @@
 		0D44388B293B93E600D5DCE6 /* vk-client */ = {
 			isa = PBXGroup;
 			children = (
+				0D4438A0293B94BC00D5DCE6 /* Coordinators */,
 				0D44388C293B93E600D5DCE6 /* AppDelegate.swift */,
+				0D4438A8293B980200D5DCE6 /* LoginViewController.swift */,
 				0D44388E293B93E600D5DCE6 /* SceneDelegate.swift */,
-				0D443890293B93E600D5DCE6 /* ViewController.swift */,
-				0D443892293B93E600D5DCE6 /* Main.storyboard */,
 				0D443895293B93E700D5DCE6 /* Assets.xcassets */,
+				0D4438AA293B982800D5DCE6 /* Extensions */,
 				0D443897293B93E700D5DCE6 /* LaunchScreen.storyboard */,
 				0D44389A293B93E700D5DCE6 /* Info.plist */,
+				0D4438B1293B9DC800D5DCE6 /* Localizable.strings */,
 			);
 			path = "vk-client";
+			sourceTree = "<group>";
+		};
+		0D4438A0293B94BC00D5DCE6 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				0D4438A2293B94DD00D5DCE6 /* MainCoordinator.swift */,
+				0D4438A6293B97D800D5DCE6 /* LoginCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		0D4438AA293B982800D5DCE6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0D4438AB293B984600D5DCE6 /* Strings + Localization.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -109,6 +136,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ru,
 			);
 			mainGroup = 0D443880293B93E600D5DCE6;
 			productRefGroup = 0D44388A293B93E600D5DCE6 /* Products */;
@@ -126,8 +154,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D443899293B93E700D5DCE6 /* LaunchScreen.storyboard in Resources */,
+				0D4438AF293B9DC800D5DCE6 /* Localizable.strings in Resources */,
 				0D443896293B93E700D5DCE6 /* Assets.xcassets in Resources */,
-				0D443894293B93E600D5DCE6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +166,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D443891293B93E600D5DCE6 /* ViewController.swift in Sources */,
+				0D4438A3293B94DD00D5DCE6 /* MainCoordinator.swift in Sources */,
+				0D4438A7293B97D800D5DCE6 /* LoginCoordinator.swift in Sources */,
 				0D44388D293B93E600D5DCE6 /* AppDelegate.swift in Sources */,
+				0D4438AC293B984600D5DCE6 /* Strings + Localization.swift in Sources */,
+				0D4438A9293B980200D5DCE6 /* LoginViewController.swift in Sources */,
 				0D44388F293B93E600D5DCE6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,20 +178,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0D443892293B93E600D5DCE6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0D443893293B93E600D5DCE6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0D443897293B93E700D5DCE6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				0D443898293B93E700D5DCE6 /* Base */,
+				0D4438A5293B976600D5DCE6 /* ru */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0D4438B1293B9DC800D5DCE6 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D4438B0293B9DC800D5DCE6 /* en */,
+				0D4438B2293B9DCB00D5DCE6 /* ru */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -170,6 +203,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -230,6 +264,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -292,7 +327,6 @@
 				INFOPLIST_FILE = "vk-client/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,7 +354,6 @@
 				INFOPLIST_FILE = "vk-client/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  vk-client
+
+  Created by Dima Gorbachev on 03.12.2022.
+  
+*/
+
+"tabBarFeed" = "Feed";
+"tabBarProfile" = "Profile";
+"tabBarFavorite" = "Favorites";
